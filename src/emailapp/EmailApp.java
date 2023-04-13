@@ -7,7 +7,7 @@ public class EmailApp {
 		//Creating the object of the email class:: 
 		
 		Email e = new Email("Ritankar", "Pal");
-		e.setMailboxCapacity(50);
+		e.setMailboxCapacity(30);
 		System.out.println(e.showInfo());
 
 	}
